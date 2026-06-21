@@ -1,0 +1,8 @@
+Task 1 REPORT
+1.Int is a return type for variable that store integer whole number values whereas float is a return type that stores decimal numbers .
+
+2.What happens if you forget to write Serial.begin(9600) in setup()? Try it and explain what
+you observe.
+The serial monitor will go blank . No execution will take place 
+
+3.The output appears once and not repetitive because our block of code is in the void setup function and not the loop. The void setup function only executes the code once .
